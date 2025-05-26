@@ -1,0 +1,57 @@
+.mainDiv{
+	/*border:solid royalblue;*/
+	height: 780px;
+	width: 1400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image: url('../img/loginBackground2.png');
+    background-size: cover;
+}
+
+.contentDiv{
+	border:1px solid white;
+	height:500px;
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background-image:url("../img/background2.jpg");
+	background-size:cover; */
+	 /*background-color: rgba(255, 255, 255, 0.5);*/
+	 backdrop-filter: blur(3px) brightness(100%); 
+	 box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.3);
+	 border-radius:5%;
+}
+.inputTxt{
+	border:1px solid white;
+	border-radius: 10px;
+	width:230px;
+	height:30px;
+	background-color: transparent; /* 设置背景为透明 */
+	box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.spanTxt{
+	 font-family: "Roboto", sans-serif;
+	font-size:40px;
+	color:white;
+}
+.loginBtn{
+	width:230px;
+	height:35px;
+	background-color:white;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	color:balck;
+	border-radius: 20px; /* 调整圆角的大小 */
+	 box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+	 border: 1px solid #ccc
+}
+.loginBtn:active {
+        background-color: #2980b9;
+        border-color: #2980b9;
+    }
+.conTaStyle{
+	margin-top: 10px;
+	margin-left: 50px;
+}

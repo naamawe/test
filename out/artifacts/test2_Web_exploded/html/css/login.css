@@ -1,0 +1,40 @@
+.mainDiv{
+	border:solid royalblue;
+	height: 780px;
+	width: 1400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image: url('../img/mainBackGround.jpg');
+    background-size: cover;
+}
+
+.contentDiv{
+	border:kyblue;
+	height:350px;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:auto;
+	/* background-image:url("../img/background2.jpg");
+	background-size:cover; */
+	 background-color: rgba(255, 255, 255, 0.5); 
+}
+.inputTxt{
+	font-size:15px;
+	border:2px solid skyblue;
+	border-radius: 5px;
+}
+.spanTxt{
+	font-size:40px
+}
+.loginBtn{
+	width: 60px;
+	height:30px;
+	font-size:14px;
+}
+.conTaStyle{
+	margin-top: 10px;
+	margin-left: 50px;
+}

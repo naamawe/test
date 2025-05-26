@@ -1,0 +1,114 @@
+html{
+	/*background-color: red;  璁剧疆鑳屾櫙鑹�*/
+	font-size: 12px;  /*璁剧疆缃戦〉瀛椾綋*/
+}
+body{
+	/* background-color:pink; */
+	margin: 0px; /*涓婁笅宸﹀彸澶栬竟璺濅负0*/
+	padding: 0px;/*涓婁笅宸﹀彸鍐呰竟璺濅负0*/
+	
+	/* 璁゜ody涓殑鍏冪礌灞呬腑 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainDiv{
+
+	width: 1400px;
+	height: 1000px;
+}
+.topDiv{
+	
+	width: 100%;
+	height: 130px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*字体*/
+	font-size: 80px;
+	font-family: "FZCuYuan-M03S";
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: 800;
+	color: lightyellow;
+	text-shadow: 4px 4px 0 cornflowerblue;
+}
+.contentDiv{
+
+	width: 1398px;
+	height: 750px;
+
+	background-image: url("../img/8.webp");
+	background-size: cover;
+
+}
+.daohang
+{
+	width: 1393px;
+	height: 70px;	
+	background-color:  aliceblue;
+
+
+	
+}
+.footDiv{
+	margin-top:2px;
+	border: 1px solid green;
+	width: 100%;
+	height: 80px;
+}
+.editTable
+{
+	background-color:white;
+	width:780px;
+	height: 480px;
+	padding-top: 10px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 110px;
+	margin-left: 320px;
+
+}
+
+.indexTable{
+	width: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputTxt
+{
+	border: 1px solid slategray;
+	width: 300px;
+	height: 30px;
+	border-radius: 7px;
+	font-size: 20px;
+}
+.clickOp
+{
+
+	background: rgba(71, 156, 235, 0.7);
+	box-shadow: 0 3px #999;
+	user-select: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 8px;
+	width: 90px;
+	height: 40px;
+	font-size: 20px;
+		border-color:transparent;
+	
+}
+.clickOp:hover {
+  background: dodgerblue;
+}
+ 
+.clickOp:active {
+  background-color: dodgerblue;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}

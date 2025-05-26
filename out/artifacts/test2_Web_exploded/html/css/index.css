@@ -1,0 +1,74 @@
+.mainDiv{
+	border:solid royalblue;
+	height: 780px;
+	width: 1400px;
+}
+.topDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2px;
+	margin-left:2px;
+	border:solid whitesmoke;
+	height:100px;
+	width:1392px;
+}
+.contentDiv{
+	margin-top: 2px;
+	margin-left: 2px;
+	border:solid saddlebrown;
+	height:600px;
+	width:1392px;
+}
+.rootDiv{
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	border: solid rosybrown;
+	height: 60px;
+	width: 1392px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.coLeDiv{
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	border:solid blueviolet;
+	height:590px;
+	width: 150px;
+	float:left;
+	
+	
+}
+.coReDiv{
+	margin-top: 2px;
+	margin-left: 158px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	border:solid blueviolet;
+	height:590px;
+	width:1228px;
+}
+.topDivTxt{
+	font-size: 80px;
+	color: burlywood
+}
+.funButton{
+	font-size:30px;
+	font-style: italic;
+	color:brown
+}
+.tableStyle{
+	margin-left: 60px;
+	margin-top: 10px;
+}
+.obTxtSt{
+	background-color: darkorange;
+	font-size: 20px;
+}
+.indexPageNumberDiv{
+	margin-left: 250px;
+}

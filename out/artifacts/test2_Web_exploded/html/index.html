@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>校园闲置物品置售平台</title>
+		<style>
+			@import url("css/index.css");
+		</style>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="mainDiv"><!--main块                                             开始-->
+			<div class="topDiv">
+				<img src="img/index1.jpg" width="150" height="96">
+				<font class="topDivTxt">
+					悠悠平台
+				</font>
+				<img src="img/index1.jpg" width="150" height="96">
+			</div>
+			<div class="contentDiv">
+				<div class="coLeDiv">
+					<!--显示登入用户以及退出选项-->
+					登入账户
+					<br />
+					<input type="text" name="queryDataTxt" id="queryDataTxt" style="width: 130px;border-radius: 5px;">
+					<br />
+					<a href="login.html"><font style="color: red;">退出</font><a/>
+				</div>
+				<div class="coReDiv">
+					<div class="coReAllMeDiv">
+					<!--显示查询条件-->
+					    请选择查询条件：
+						物品类别<input type="radio" name="queryTj" checked/>
+						物品价格<input type="radio" name="queryTj">
+						物品发售时间<input type="radio" name="queryTj">
+						<br />
+					<!--用表格显示待售物品-->
+					<div class="conTaStyle">
+					<table class="tableStyle" border="1" width="90%">
+					<tr>
+					<td colspan="6" align="center">
+						<font style="color: saddlebrown;font-size: 30px;font-weight: 500;bac">物品信息表</font>
+					</td>
+					</tr>
+					<tr>
+						<td class="obTxtSt" align="center">物品名</td>
+						<td class="obTxtSt" align="center">物品类别</td>
+						<td class="obTxtSt" align="center">物品售价</td>
+						<td class="obTxtSt" align="center">是否已售</td>
+						<td class="obTxtSt" align="center">物品开售日期</td>
+						<td class="obTxtSt" align="center" width="120px">操作</td>
+							
+						
+					</tr>
+					<tr>
+						<td>nike篮球</td>
+						<td>篮球</td>
+						<td>100</td>
+						<td>否</td>
+						<td>2024.6.19</td>
+						<td>
+							<button type="button">购买</button>
+							<button type="button">联系卖家</button>
+						</td>
+					</tr>
+					<tr>
+						<td>nike篮球</td>
+						<td>篮球</td>
+						<td>100</td>
+						<td>否</td>
+						<td>2024.6.19</td>
+						<td>
+							<button type="button">购买</button>
+							<button type="button">联系卖家</button>
+						</td>
+					</tr>
+					<tr>
+						<td>nike篮球</td>
+						<td>篮球</td>
+						<td>100</td>
+						<td>否</td>
+						<td>2024.6.19</td>
+						<td>
+							<button type="button">购买</button>
+							<button type="button">联系卖家</button>
+						</td>
+					</tr>
+					<tr>
+						<td>nike篮球</td>
+						<td>篮球</td>
+						<td>100</td>
+						<td>否</td>
+						<td>2024.6.19</td>
+						<td>
+							<button type="button">购买</button>
+							<button type="button">联系卖家</button>
+						</td>
+					</tr>
+					<tr>
+						<td>nike篮球</td>
+						<td>篮球</td>
+						<td>100</td>
+						<td>否</td>
+						<td>2024.6.19</td>
+						<td>
+							<button type="button">购买</button>
+							<button type="button">联系卖家</button>
+						</td>
+					</tr>
+					<tr>
+						<td>nike篮球</td>
+						<td>篮球</td>
+						<td>100</td>
+						<td>否</td>
+						<td>2024.6.19</td>
+						<td>
+							<button type="button">购买</button>
+							<button type="button">联系卖家</button>
+						</td>
+					</tr>
+					</table>
+					<div class="indexPageNumberDiv">
+						<a href="#">首页</a>--<a href="#">上一页</a>
+						<a href="#">下一页</a>--<a href="#">末页</a>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						一共--<font style="color: red; font-weight: bold;">5</font>--页，
+						有--<font style="color: red; font-weight: bold;">50</font>--数据，
+						现在是第--<font style="color: red; font-weight: bold;">1</font>--页
+					</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="rootDiv">
+				<!--实现各功能按钮-->
+				<button class="funButton" button type="">
+					主页
+				</button>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button class="funButton" button type="">
+					卖闲置
+				</button>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button class="funButton" button type="">
+					消息
+				</button>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button class="funButton" button type="">
+					个人
+				</button>
+			</div>
+		</div><!--main块                                             结束-->
+	</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "UTF-8";
+html {
+	/*background-color: red;  设置背景色*/
+	font-size: 12px;
+	/*设置网页字体*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	/* background-color:pink; */
+	margin: 0px;
+	/*上下左右外边距为0*/
+	padding: 0px;
+	/*上下左右内边距为0*/
+
+	/* 让body中的元素居中 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mainDiv{
+	width:1400px;
+	height:780px;
+	border:2px solid blue；
+}
+.homeTopDiv {
+	
+	width: 100%;
+	height: 108px;
+	background-color: lightblue;
+
+}
+.topDivTxt
+{
+	font-family: "FZCuYuan-M03S";
+	letter-spacing: 5px;
+	font-weight: 700;
+	color: lightyellow;
+	text-shadow: 4px 4px 0 cornflowerblue;
+	width: 400px;
+	height: 100px;
+	float: left;
+	text-align: left;
+
+
+}
+.coLeDiv {
+	margin-right: 20px;
+	height: 30px;
+	width: 500px;
+	float: right;
+	font-size: 18px;
+	color: slategray;
+	text-align: right;
+
+}
+.indexTable{
+	width: 850px;
+	border-collapse: separate;
+	border-top:none;
+	border-bottom: none;
+	border-spacing: 40px;
+	border-left: none;
+	border-right: none;
+	font-size: 16px;
+
+}
+.contentDiv{
+	background-image: url('../img/t1.jpg');
+	background-size: cover;
+display: flex;
+	justify-content: center;
+	align-items: center;
+	width:1400px;
+	height:600px;
+	border:2px solid blue；
+}
+
+.clickButtom/*搴曞眰鎸夐挳*/
+{
+	font-size: 20px;
+	background: rgba(71, 156, 235, 0.7);
+	box-shadow: 0 3px #999;
+	user-select: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	border-color:transparent;
+
+}
+.clickButtom:hover
+{
+ background: dodgerblue;
+}
+ 
+.clickButtom:active {
+  background-color: dodgerblue;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.footDiv {
+	width: 1400px;
+	height:90px;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.inputTxt
+{
+		border: 1.5px solid gray;
+	font-size: 20px;
+	border-radius: 5px;
+	width: 300px;
+	height: 40px;
+}

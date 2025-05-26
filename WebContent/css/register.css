@@ -1,0 +1,48 @@
+.mainDiv{
+	height: 780px;
+	width: 1400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image: url('../img/loginBackground2.png');
+    background-size: cover;
+}
+
+.contentDiv{
+	border:kyblue;
+	height:700px;
+	width: 600px;
+	display:flex;
+	justify-content:center;
+	 backdrop-filter: blur(3px) brightness(100%); 
+	 box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.3);
+	 border-radius:5%;
+}
+.inputTxt{
+	border:1px solid white;
+	border-radius: 10px;
+	width:230px;
+	height:30px;
+	background-color: transparent; /* 设置背景为透明 */
+	box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.spanTxt{
+	 font-family: "Roboto", sans-serif;
+	font-size:80px;
+	color:white;
+}
+.registerTxt{
+	margin-top: 100px;
+	margin-left:120px;
+}
+.buttonStyle{
+	width:230px;
+	height:35px;
+	background-color:white;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	color:balck;
+	border-radius: 20px; /* 调整圆角的大小 */
+	 box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+	 border: 1px solid #ccc
+}
